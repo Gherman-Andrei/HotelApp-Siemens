@@ -1,0 +1,12 @@
+POST http://localhost:8080/feedbacks
+Content-Type: application/json
+
+{
+  "nume": "Client",
+  "comment": "Merge?",
+  "rating": 5,
+  "hotelId": 1
+}
+
+###
+GET http://localhost:8080/feedbacks/hotel/1

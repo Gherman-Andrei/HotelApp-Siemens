@@ -1,0 +1,66 @@
+GET http://localhost:8080/api/hotels
+
+###
+POST http://localhost:8080/api/hotels
+Content-Type: application/json
+
+{
+  "name": "Hotel Rda",
+  "latitude": 42.764654252624204,
+  "longitude": 23.598674125224626,
+  "rooms": [
+    {
+      "roomNumber": 210,
+      "roomType": "SINGLE",
+      "price": 200.0,
+      "isAvailable": true
+    },
+    {
+      "roomNumber": 125,
+      "roomType": "MATRIMONIAL",
+      "price": 350.0,
+      "isAvailable": true
+    },
+    {
+      "roomNumber": 87,
+      "roomType": "SUITE",
+      "price": 300.0,
+      "isAvailable": false
+    }
+  ]
+}
+###
+PUT http://localhost:8080/api/hotels/3
+Content-Type: application/json
+
+{
+  "name": "Hotel Transilvania",
+  "latitude": 45.764654252624204,
+  "longitude": 25.598674125224626,
+  "rooms": [
+    {
+      "roomNumber": 101,
+      "roomType": "SINGLE",
+      "price": 180.0,
+      "isAvailable": true
+    },
+    {
+      "roomNumber": 201,
+      "roomType": "DOUBLE",
+      "price": 300.0,
+      "isAvailable": true
+    },
+    {
+      "roomNumber": 301,
+      "roomType": "SUITE",
+      "price": 400.0,
+      "isAvailable": false
+    }
+  ]
+}
+###
+DELETE http://localhost:8080/api/hotels/3
+
+###
+GET http://localhost:8080/api/hotels/nearby?latitude=42.764654252624204&longitude=23.598674125224626&radius=300
+

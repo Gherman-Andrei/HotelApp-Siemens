@@ -1,0 +1,1 @@
+GET http://localhost:8080/api/rooms/filter?type=DOUBLE&minPrice=100&maxPrice=300&hotelId=1

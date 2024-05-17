@@ -1,0 +1,31 @@
+POST http://localhost:8080/reservations
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nume": "Numele Clientului",
+  "checkInDate": "2024-05-25T14:30:00",
+  "checkOutDate": "2024-05-27T10:00:00",
+  "roomId": 1
+}
+
+###
+
+GET http://localhost:8080/reservations/1
+
+
+###
+DELETE  http://localhost:8080/reservations/1
+
+
+###
+PUT http://localhost:8080/reservations/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nume": "Numele Clientului2",
+  "checkInDate": "2024-05-25T14:30:00",
+  "checkOutDate": "2024-05-28T10:00:00",
+  "roomId": 2
+}

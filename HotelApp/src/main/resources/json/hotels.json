@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Hotel Ramada",
+    "latitude": 46.764654252624204,
+    "longitude": 23.598674125224626,
+    "rooms": [
+      {
+        "roomNumber": 210,
+        "type": 2,
+        "price": 200,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 125,
+        "type": 1,
+        "price": 350,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 87,
+        "type": 1,
+        "price": 300,
+        "isAvailable": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Grand Hotel Italia",
+    "latitude": 46.7522792440665,
+    "longitude": 23.605990381045697,
+    "rooms": [
+      {
+        "roomNumber": 41,
+        "type": 3,
+        "price": 240,
+        "isAvailable": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hampton by Hilton",
+    "latitude": 46.77539900854998,
+    "longitude": 23.60182699638966,
+
+    "rooms": [
+      {
+        "roomNumber": 32,
+        "type": 2,
+        "price": 410,
+        "isAvailable": false
+      },
+      {
+        "roomNumber": 21,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 64,
+        "type": 3,
+        "price": 300,
+        "isAvailable": true
+      }
+    ]
+  },{
+  "id": 4,
+  "name": "Hotel Transilvania",
+  "latitude": 46.7676103,
+  "longitude": 23.5913039,
+  "rooms": [
+    {
+      "roomNumber": 101,
+      "type": 1,
+      "price": 150,
+      "isAvailable": true
+    },
+    {
+      "roomNumber": 102,
+      "type": 2,
+      "price": 200,
+      "isAvailable": false
+    }
+  ]
+},
+  {
+    "id": 5,
+    "name": "Hotel București",
+    "latitude": 44.4267674,
+    "longitude": 26.1025384,
+    "rooms": [
+      {
+        "roomNumber": 201,
+        "type": 1,
+        "price": 180,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 202,
+        "type": 2,
+        "price": 220,
+        "isAvailable": false
+      },
+      {
+        "roomNumber": 203,
+        "type": 3,
+        "price": 250,
+        "isAvailable": true
+      }
+    ]
+  }
+]
