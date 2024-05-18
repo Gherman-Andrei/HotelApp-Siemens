@@ -8,7 +8,7 @@ import andrei.gherman.HotelApp.Repository.HotelRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Collection;
+import java.util.List;
 
 @Service
 public class FeedBackService {
@@ -31,7 +31,7 @@ public class FeedBackService {
         feedbackDTO.setId(feedBack.getId());
         return feedbackDTO;
     }
-    public Collection<Object> getFeedbacksByHotelId(Long hotelId) {
+    public List<FeedbackDTO> getFeedbacksByHotelId(Long hotelId) {
         return feedbackRepository.findAllByHotelId(hotelId);
     }
 

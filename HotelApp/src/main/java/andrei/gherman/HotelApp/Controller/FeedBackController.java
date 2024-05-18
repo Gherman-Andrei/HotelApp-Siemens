@@ -21,7 +21,7 @@ public class FeedBackController {
     }
 
     @GetMapping("/hotel/{hotelId}")
-    public Collection<Object> getFeedback(@PathVariable Long hotelId) {
+    public List<FeedbackDTO> getFeedback(@PathVariable Long hotelId) {
         return feedBackService.getFeedbacksByHotelId(hotelId);
     }
 
